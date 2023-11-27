@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ColourTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Created a test for the constructor in ColourTable class which will obviously fail." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,8 +50,41 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701101850720</updated>
-      <workItem from="1701101851811" duration="1322000" />
+      <workItem from="1701101851811" duration="2548000" />
     </task>
+    <task id="LOCAL-00001" summary="Create the project with Maven as build. Added Junit5 dependecies.">
+      <option name="closed" value="true" />
+      <created>1701103359613</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701103359613</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created the ColourTable.java class.">
+      <option name="closed" value="true" />
+      <created>1701103403655</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701103403655</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Created Test class.">
+      <option name="closed" value="true" />
+      <created>1701103525914</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701103525914</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Created a test for the constructor in ColourTable class which will obviously fail.">
+      <option name="closed" value="true" />
+      <created>1701104409378</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701104409378</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -75,5 +100,12 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create the project with Maven as build. Added Junit5 dependecies." />
+    <MESSAGE value="Created the ColourTable.java class." />
+    <MESSAGE value="Created Test class." />
+    <MESSAGE value="Created a test for the constructor in ColourTable class which will obviously fail." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a test for the constructor in ColourTable class which will obviously fail." />
   </component>
 </project>
