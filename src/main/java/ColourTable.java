@@ -13,7 +13,6 @@ public class ColourTable {
     }
 
     public boolean isPowerOfTwo(int num) {
-        return (int)(Math.ceil((Math.log(num) / Math.log(2))))
-                == (int)(Math.floor(((Math.log(num) / Math.log(2)))));
+        return num !=0 && ((num & (num - 1)) == 0);
     }
 }
