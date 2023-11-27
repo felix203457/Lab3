@@ -11,4 +11,10 @@ public class ColourTest {
         assertEquals(numOfColours, ct.getNumOfColours());
     }
 
+    @Test
+    public void testColourTableParameter() {
+        assertThrows(IllegalArgumentException.class, () -> new ColourTable(1));
+        assertThrows(IllegalArgumentException.class, () -> new ColourTable(1025));
+        assertThrows(IllegalArgumentException.class, () -> new ColourTable(5));
+    }
 }
