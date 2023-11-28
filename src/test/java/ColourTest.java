@@ -36,4 +36,12 @@ public class ColourTest {
         assertThrows(IllegalArgumentException.class, () -> ct3.add(256, 0, 0));
         assertThrows(IllegalArgumentException.class, ()-> ct3.add(0,-1,0));
     }
+    @Test
+    public void testDuplicateAdd() {
+        ColourTable ct4 = new ColourTable(2);
+        ct4.add(255,0,0);
+        ct4.add(255,0,0);
+        ct4.add(1,0,0);
+        assertEquals(2, ct4.colourSet.size());
+    }
 }
