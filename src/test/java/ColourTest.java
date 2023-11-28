@@ -30,4 +30,10 @@ public class ColourTest {
         ct2.addColour(0,0,255);
         assertEquals(2,ct2.colourSet.size());
     }
+    @Test
+    public void testInvalidValuesToAdd() {
+        ColourTable ct3 = new ColourTable(2);
+        assertThrows(IllegalArgumentException.class, () -> ct3.addColour(256, 0, 0));
+        assertThrows(IllegalArgumentException.class, ()-> ct3.addColour(0,-1,0));
+    }
 }
