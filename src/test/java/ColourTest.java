@@ -52,4 +52,13 @@ public class ColourTest {
         assertThrows(IllegalStateException.class, () -> ct5.add(0,255,0));
     }
 
+    @Test
+    public void testRemoveColour() {
+        ColourTable ct6 = new ColourTable(2);
+        ct6.add(255,0,0);
+        ct6.add(200,0,0);
+        ct6.removeColour(255, 0, 0);
+        assertEquals(1, ct6.colourSet.size());
+    }
+
 }
