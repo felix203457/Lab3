@@ -19,6 +19,9 @@ public class ColourTable {
         return num !=0 && ((num & (num - 1)) == 0);
     }
     public void addColour(int red, int green, int blue) {
+        if ((red < 0 || red >255) || (green < 0 || green > 255) || (blue < 0 || blue > 255)){
+            throw new IllegalArgumentException();
+        }
         int rgbValue = packRGB(red, green, blue);
         colourSet.add(rgbValue);
     }
