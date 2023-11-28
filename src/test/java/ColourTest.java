@@ -23,4 +23,11 @@ public class ColourTest {
         assertDoesNotThrow(() -> new ColourTable(2));
         assertDoesNotThrow(() -> new ColourTable(256));
     }
+    @Test
+    public void testAddMethod() {
+        ColourTable ct2 = new ColourTable(8);
+        ct2.addColour(255,0,0);
+        ct2.addColour(0,0,255);
+        assertEquals(2,ct2.colourSet.size());
+    }
 }

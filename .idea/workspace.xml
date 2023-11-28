@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Created a test for the constructor in ColourTable class which will obviously fail." />
+    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Test to check if a palette size is valid.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ColourTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +46,66 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ColourTest.testAddMethod">
+    <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest.testAddMetho" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="METHOD_NAME" value="testAddMetho" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest.testAddMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="METHOD_NAME" value="testAddMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest.testColourTableParameter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="METHOD_NAME" value="testColourTableParameter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ColourTest.testValidPaletteSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ColourTest" />
+      <option name="METHOD_NAME" value="testValidPaletteSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ColourTest.testAddMethod" />
+        <item itemvalue="JUnit.ColourTest.testAddMetho" />
+        <item itemvalue="JUnit.ColourTest.testValidPaletteSize" />
+        <item itemvalue="JUnit.ColourTest.testColourTableParameter" />
+        <item itemvalue="JUnit.ColourTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701101850720</updated>
-      <workItem from="1701101851811" duration="2548000" />
+      <workItem from="1701101851811" duration="11357000" />
     </task>
     <task id="LOCAL-00001" summary="Create the project with Maven as build. Added Junit5 dependecies.">
       <option name="closed" value="true" />
@@ -84,7 +148,47 @@
       <option name="project" value="LOCAL" />
       <updated>1701104409378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented the constructor and getter code to fix testColourTableConstructor().">
+      <option name="closed" value="true" />
+      <created>1701104858683</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701104858683</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Created a test to make sure parameters are within specified bounds.">
+      <option name="closed" value="true" />
+      <created>1701123307624</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701123307624</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated and created code to pass the testColourTableParameter test.">
+      <option name="closed" value="true" />
+      <created>1701123384678</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701123384678</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Refactored the helper method isPowerOfTwo().">
+      <option name="closed" value="true" />
+      <created>1701123790691</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701123790691</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Test to check if a palette size is valid.">
+      <option name="closed" value="true" />
+      <created>1701124500166</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701124500166</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +210,11 @@
     <MESSAGE value="Created the ColourTable.java class." />
     <MESSAGE value="Created Test class." />
     <MESSAGE value="Created a test for the constructor in ColourTable class which will obviously fail." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a test for the constructor in ColourTable class which will obviously fail." />
+    <MESSAGE value="Implemented the constructor and getter code to fix testColourTableConstructor()." />
+    <MESSAGE value="Created a test to make sure parameters are within specified bounds." />
+    <MESSAGE value="Updated and created code to pass the testColourTableParameter test." />
+    <MESSAGE value="Refactored the helper method isPowerOfTwo()." />
+    <MESSAGE value="Test to check if a palette size is valid." />
+    <option name="LAST_COMMIT_MESSAGE" value="Test to check if a palette size is valid." />
   </component>
 </project>
