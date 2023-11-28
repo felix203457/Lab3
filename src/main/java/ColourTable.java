@@ -1,8 +1,8 @@
 import java.util.HashSet;
 import java.util.Set;
 public class ColourTable {
-    Set<Integer> colourSet;
-    int numOfColours;
+    private final Set<Integer> colourSet;
+    private final int numOfColours;
     public ColourTable(int numOfColours) {
         this.numOfColours = numOfColours;
         if (numOfColours <=1 || numOfColours >= 1025 || !isPowerOfTwo(numOfColours)) {
@@ -40,5 +40,8 @@ public class ColourTable {
     public void removeColour(int red, int green, int blue) {
         int rgbValue = packRGB(red, green, blue);
         colourSet.remove(rgbValue);
+    }
+    public int getPaletteSize() {
+        return colourSet.size();
     }
 }

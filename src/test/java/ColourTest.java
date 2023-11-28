@@ -28,7 +28,7 @@ public class ColourTest {
         ColourTable ct2 = new ColourTable(8);
         ct2.add(255,0,0);
         ct2.add(0,0,255);
-        assertEquals(2,ct2.colourSet.size());
+        assertEquals(2,ct2.getPaletteSize());
     }
     @Test
     public void testInvalidValuesToAdd() {
@@ -42,7 +42,7 @@ public class ColourTest {
         ct4.add(255,0,0);
         ct4.add(255,0,0);
         ct4.add(1,0,0);
-        assertEquals(2, ct4.colourSet.size());
+        assertEquals(2, ct4.getPaletteSize());
     }
     @Test
     public void testInvalidAdd() {
@@ -58,7 +58,7 @@ public class ColourTest {
         ct6.add(255,0,0);
         ct6.add(200,0,0);
         ct6.removeColour(255, 0, 0);
-        assertEquals(1, ct6.colourSet.size());
+        assertEquals(1, ct6.getPaletteSize());
     }
 
 }
