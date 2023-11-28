@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Test to check if a palette size is valid.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Created test method for adding colour to Palette. This test method checks if the hashset size matches the number of colours added.">
       <change beforePath="$PROJECT_DIR$/src/main/java/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ColourTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +44,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTest.testAddMethod">
+  <component name="RunManager" selected="JUnit.ColourTest">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab3" />
       <option name="PACKAGE_NAME" value="" />
@@ -98,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ColourTest" />
         <item itemvalue="JUnit.ColourTest.testAddMethod" />
         <item itemvalue="JUnit.ColourTest.testAddMetho" />
         <item itemvalue="JUnit.ColourTest.testValidPaletteSize" />
         <item itemvalue="JUnit.ColourTest.testColourTableParameter" />
-        <item itemvalue="JUnit.ColourTest" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701101850720</updated>
-      <workItem from="1701101851811" duration="11357000" />
+      <workItem from="1701101851811" duration="11782000" />
     </task>
     <task id="LOCAL-00001" summary="Create the project with Maven as build. Added Junit5 dependecies.">
       <option name="closed" value="true" />
@@ -188,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701124500166</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created test method for adding colour to Palette. This test method checks if the hashset size matches the number of colours added.">
+      <option name="closed" value="true" />
+      <created>1701134995741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701134995741</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +221,7 @@
     <MESSAGE value="Updated and created code to pass the testColourTableParameter test." />
     <MESSAGE value="Refactored the helper method isPowerOfTwo()." />
     <MESSAGE value="Test to check if a palette size is valid." />
-    <option name="LAST_COMMIT_MESSAGE" value="Test to check if a palette size is valid." />
+    <MESSAGE value="Created test method for adding colour to Palette. This test method checks if the hashset size matches the number of colours added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created test method for adding colour to Palette. This test method checks if the hashset size matches the number of colours added." />
   </component>
 </project>
