@@ -44,4 +44,12 @@ public class ColourTest {
         ct4.add(1,0,0);
         assertEquals(2, ct4.colourSet.size());
     }
+    @Test
+    public void testInvalidAdd() {
+        ColourTable ct5 = new ColourTable(2);
+        ct5.add(255,0,0);
+        ct5.add(200,0,0);
+        assertThrows(IllegalStateException.class, () -> ct5.add(0,255,0));
+    }
+
 }
