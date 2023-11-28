@@ -18,7 +18,7 @@ public class ColourTable {
     public boolean isPowerOfTwo(int num) {
         return num !=0 && ((num & (num - 1)) == 0);
     }
-    public void addColour(int red, int green, int blue) {
+    public void add(int red, int green, int blue) {
         if (!isValidColourValue(red) || !isValidColourValue(green) || !isValidColourValue(blue)){
             throw new IllegalArgumentException();
         }

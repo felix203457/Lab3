@@ -26,14 +26,14 @@ public class ColourTest {
     @Test
     public void testAddMethod() {
         ColourTable ct2 = new ColourTable(8);
-        ct2.addColour(255,0,0);
-        ct2.addColour(0,0,255);
+        ct2.add(255,0,0);
+        ct2.add(0,0,255);
         assertEquals(2,ct2.colourSet.size());
     }
     @Test
     public void testInvalidValuesToAdd() {
         ColourTable ct3 = new ColourTable(2);
-        assertThrows(IllegalArgumentException.class, () -> ct3.addColour(256, 0, 0));
-        assertThrows(IllegalArgumentException.class, ()-> ct3.addColour(0,-1,0));
+        assertThrows(IllegalArgumentException.class, () -> ct3.add(256, 0, 0));
+        assertThrows(IllegalArgumentException.class, ()-> ct3.add(0,-1,0));
     }
 }
