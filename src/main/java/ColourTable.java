@@ -38,6 +38,7 @@ public class ColourTable {
         return val >= 0 && val <= 255;
     }
     public void removeColour(int red, int green, int blue) {
-
+        int rgbValue = packRGB(red, green, blue);
+        colourSet.remove(rgbValue);
     }
 }

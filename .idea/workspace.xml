@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Implemented code that ensures the testInvalidAdd() test runs. Prevents user from adding more colours to the palette than specified in the parameter.">
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
+    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Created removeColour() method with parameters. Tests still fails.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ColourTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +44,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTest.testRemoveColour">
+  <component name="RunManager" selected="JUnit.ColourTest">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab3" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTest.testRemoveColour" />
         <item itemvalue="JUnit.ColourTest" />
+        <item itemvalue="JUnit.ColourTest.testRemoveColour" />
         <item itemvalue="JUnit.ColourTest.testInvalidAdd" />
         <item itemvalue="JUnit.ColourTest.testDuplicateAdd" />
         <item itemvalue="JUnit.ColourTest.testAddMethod" />
@@ -112,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701101850720</updated>
-      <workItem from="1701101851811" duration="16998000" />
+      <workItem from="1701101851811" duration="17403000" />
     </task>
     <task id="LOCAL-00001" summary="Create the project with Maven as build. Added Junit5 dependecies.">
       <option name="closed" value="true" />
@@ -258,7 +258,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701138735445</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Created a test which checks if the program removeColour removes a colour from palette. Obviously fails because removeColour method not implemented in ColourTable.java.">
+      <option name="closed" value="true" />
+      <created>1701174627957</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1701174627957</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Created removeColour() method with parameters. Tests still fails.">
+      <option name="closed" value="true" />
+      <created>1701174693598</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1701174693598</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +310,8 @@
     <MESSAGE value="Created a test method to show that duplicates cannot be added to palette." />
     <MESSAGE value="Created a test method testInvalidAdd() which checks if more colours have been added than given palette size." />
     <MESSAGE value="Implemented code that ensures the testInvalidAdd() test runs. Prevents user from adding more colours to the palette than specified in the parameter." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented code that ensures the testInvalidAdd() test runs. Prevents user from adding more colours to the palette than specified in the parameter." />
+    <MESSAGE value="Created a test which checks if the program removeColour removes a colour from palette. Obviously fails because removeColour method not implemented in ColourTable.java." />
+    <MESSAGE value="Created removeColour() method with parameters. Tests still fails." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created removeColour() method with parameters. Tests still fails." />
   </component>
 </project>
