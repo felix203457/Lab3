@@ -37,4 +37,7 @@ public class ColourTable {
     public boolean isValidColourValue(int val) {
         return val >= 0 && val <= 255;
     }
+    public void removeColour(int red, int green, int blue) {
+
+    }
 }
