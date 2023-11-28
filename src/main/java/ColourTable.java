@@ -22,8 +22,14 @@ public class ColourTable {
         if (!isValidColourValue(red) || !isValidColourValue(green) || !isValidColourValue(blue)){
             throw new IllegalArgumentException();
         }
-        int rgbValue = packRGB(red, green, blue);
-        colourSet.add(rgbValue);
+        if (colourSet.size() < numOfColours) {
+            int rgbValue = packRGB(red, green, blue);
+            colourSet.add(rgbValue);
+        }
+        else {
+            throw new IllegalStateException();
+        }
+
     }
     public int packRGB(int red, int green, int blue) {
         return (red << 16) | (green << 8) | blue;

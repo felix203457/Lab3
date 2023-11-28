@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Created a test method to show that duplicates cannot be added to palette.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ColourTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ColourTest.java" afterDir="false" />
+    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Created a test method testInvalidAdd() which checks if more colours have been added than given palette size.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ColourTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +44,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ColourTest.testInvalidAdd">
+  <component name="RunManager" selected="JUnit.ColourTest">
     <configuration name="ColourTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab3" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,8 +96,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ColourTest.testInvalidAdd" />
         <item itemvalue="JUnit.ColourTest" />
+        <item itemvalue="JUnit.ColourTest.testInvalidAdd" />
         <item itemvalue="JUnit.ColourTest.testDuplicateAdd" />
         <item itemvalue="JUnit.ColourTest.testAddMethod" />
         <item itemvalue="JUnit.ColourTest.testInvalidValuesToAdd" />
@@ -113,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701101850720</updated>
-      <workItem from="1701101851811" duration="15024000" />
+      <workItem from="1701101851811" duration="15347000" />
     </task>
     <task id="LOCAL-00001" summary="Create the project with Maven as build. Added Junit5 dependecies.">
       <option name="closed" value="true" />
@@ -243,7 +242,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701137811366</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Created a test method testInvalidAdd() which checks if more colours have been added than given palette size.">
+      <option name="closed" value="true" />
+      <created>1701138463001</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1701138463001</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +284,7 @@
     <MESSAGE value="Refactored addColour() method for better readability." />
     <MESSAGE value="Renamed addColour() method to add()." />
     <MESSAGE value="Created a test method to show that duplicates cannot be added to palette." />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a test method to show that duplicates cannot be added to palette." />
+    <MESSAGE value="Created a test method testInvalidAdd() which checks if more colours have been added than given palette size." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a test method testInvalidAdd() which checks if more colours have been added than given palette size." />
   </component>
 </project>
