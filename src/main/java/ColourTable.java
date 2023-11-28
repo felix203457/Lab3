@@ -19,7 +19,7 @@ public class ColourTable {
         return num !=0 && ((num & (num - 1)) == 0);
     }
     public void addColour(int red, int green, int blue) {
-        if ((red < 0 || red >255) || (green < 0 || green > 255) || (blue < 0 || blue > 255)){
+        if (!isValidColourValue(red) || !isValidColourValue(green) || !isValidColourValue(blue)){
             throw new IllegalArgumentException();
         }
         int rgbValue = packRGB(red, green, blue);
@@ -27,5 +27,8 @@ public class ColourTable {
     }
     public int packRGB(int red, int green, int blue) {
         return (red << 16) | (green << 8) | blue;
+    }
+    public boolean isValidColourValue(int val) {
+        return val >= 0 && val <= 255;
     }
 }
