@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Privatised access modifiers and created getter methods respectively.">
+    <list default="true" id="6be4b565-8f0c-4ab9-82c1-55dda83a693a" name="Changes" comment="Privatised helper methods in ColourTable.java.">
       <change beforePath="$PROJECT_DIR$/src/main/java/ColourTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ColourTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701101850720</updated>
-      <workItem from="1701101851811" duration="18839000" />
+      <workItem from="1701101851811" duration="19220000" />
     </task>
     <task id="LOCAL-00001" summary="Create the project with Maven as build. Added Junit5 dependecies.">
       <option name="closed" value="true" />
@@ -290,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701175715192</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Privatised helper methods in ColourTable.java.">
+      <option name="closed" value="true" />
+      <created>1701176217546</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1701176217546</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +338,7 @@
     <MESSAGE value="Created removeColour() method with parameters. Tests still fails." />
     <MESSAGE value="Added code to make removeColour test pass." />
     <MESSAGE value="Privatised access modifiers and created getter methods respectively." />
-    <option name="LAST_COMMIT_MESSAGE" value="Privatised access modifiers and created getter methods respectively." />
+    <MESSAGE value="Privatised helper methods in ColourTable.java." />
+    <option name="LAST_COMMIT_MESSAGE" value="Privatised helper methods in ColourTable.java." />
   </component>
 </project>

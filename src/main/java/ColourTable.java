@@ -5,7 +5,7 @@ public class ColourTable {
     private final int numOfColours;
     public ColourTable(int numOfColours) {
         this.numOfColours = numOfColours;
-        if (numOfColours <=1 || numOfColours >= 1025 || !isPowerOfTwo(numOfColours)) {
+        if (!isValidPaletteSize(numOfColours)) {
             throw new IllegalArgumentException();
         }
         this.colourSet = new HashSet<>();
@@ -13,6 +13,10 @@ public class ColourTable {
 
     public int getNumOfColours() {
         return numOfColours;
+    }
+
+    private boolean isValidPaletteSize(int size) {
+        return size > 1 && size < 1025 && isPowerOfTwo(size);
     }
 
     private boolean isPowerOfTwo(int num) {
