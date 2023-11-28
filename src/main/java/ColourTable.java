@@ -15,7 +15,7 @@ public class ColourTable {
         return numOfColours;
     }
 
-    public boolean isPowerOfTwo(int num) {
+    private boolean isPowerOfTwo(int num) {
         return num !=0 && ((num & (num - 1)) == 0);
     }
     public void add(int red, int green, int blue) {
@@ -31,10 +31,10 @@ public class ColourTable {
         }
 
     }
-    public int packRGB(int red, int green, int blue) {
+    private int packRGB(int red, int green, int blue) {
         return (red << 16) | (green << 8) | blue;
     }
-    public boolean isValidColourValue(int val) {
+    private boolean isValidColourValue(int val) {
         return val >= 0 && val <= 255;
     }
     public void removeColour(int red, int green, int blue) {
